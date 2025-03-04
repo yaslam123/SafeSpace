@@ -6303,11 +6303,11 @@ img.map-about-tab {
 }
 
 .video:hover::before {
-  background-color: rgba(235, 147, 9, 0.3);
+  background-color: rgba(11, 49, 66, 0.3);
 }
 
 .video:hover::after {
-  background-color: rgba(235, 147, 9, 0.15);
+  background-color: rgba(11, 49, 66, 0.3);
 }
 
 @-webkit-keyframes waves {
@@ -6344,6 +6344,7 @@ img.map-about-tab {
 
 .fa-play:before {
   content: "\f04b";
+  color: white;
 }
 
 .missionVideo {

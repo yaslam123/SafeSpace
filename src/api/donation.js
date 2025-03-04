@@ -1,3 +1,4 @@
+// import sImg1 from "../images/Podcasts/podcast1.jpg";
 import sImg1 from "../images/featured/featuredThumb1.jpg";
 import sImg2 from "../images/featured/featuredThumb2.jpg";
 import sImg3 from "../images/featured/featuredThumb3.jpg";
@@ -17,6 +18,8 @@ const Donation = [
     suImg: suImg1,
     title: "Gift an Education… Make a Life Better!",
     slug: "Gift-an-Education-Make-a-Life-Better!",
+    categories: "Art",
+    videoId: "BqI0Q7e4kbk",
     description:
       "We have covered many special events such as fireworks, fairs, parades, races, walks,",
   },
@@ -26,6 +29,8 @@ const Donation = [
     suImg: suImg2,
     title: "Contribute for the Make somalians happy- 2022",
     slug: "Contribute-for-the-Make-somalians-happy-2022",
+    categories: "Life",
+    videoId: "BqI0Q7e4kbk",
     description:
       "We have covered many special events such as fireworks, fairs, parades, races, walks,",
   },
@@ -35,6 +40,8 @@ const Donation = [
     suImg: suImg3,
     title: "Online Donation In The Modern World",
     slug: "Online-Donation-In-The-Modern-World",
+    categories: "Culture",
+    videoId: "BqI0Q7e4kbk",
     description:
       "We have covered many special events such as fireworks, fairs, parades, races, walks,",
   },
@@ -44,6 +51,8 @@ const Donation = [
     suImg: suImg4,
     title: "Little Help Can Make a Big Difference",
     slug: "Little-Help-Can-Make-a-Big-Difference",
+    categories: "Innovation",
+    videoId: "BqI0Q7e4kbk",
     description:
       "We have covered many special events such as fireworks, fairs, parades, races, walks,",
   },
@@ -52,6 +61,8 @@ const Donation = [
     sImg: sImg5,
     title: "Help These Children Find Their Smiles",
     slug: "Help-These-Children-Find-Their-Smiles",
+    categories: "Fashion",
+    videoId: "BqI0Q7e4kbk",
     description:
       "We have covered many special events such as fireworks, fairs, parades, races, walks,",
   },
@@ -60,6 +71,8 @@ const Donation = [
     sImg: sImg6,
     title: "Let’s Help Children Build a Happy Future",
     slug: "Let’s-Help-Children-Build-a-Happy-Future",
+    categories: "Society",
+    videoId: "BqI0Q7e4kbk",
     description:
       "We have covered many special events such as fireworks, fairs, parades, races, walks,",
   },

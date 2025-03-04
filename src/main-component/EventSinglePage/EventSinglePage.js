@@ -87,7 +87,6 @@ const EventSinglePage = (props) => {
                       women’s groups, and cultural enthusiasts—with a profound
                       insight into the power of artistic expression.
                     </p>
-
                     <p className="donationDetails__text mb-30">
                       Through this initiative, we celebrate women as
                       storytellers, artists, and change-makers, ensuring that
