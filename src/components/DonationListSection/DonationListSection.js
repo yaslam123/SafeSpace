@@ -40,9 +40,9 @@ const DonationListSection = (props) => {
             <div className="sectionTitle mb-65">
               <span className="sectionTitle__small">
                 <i className="fa-solid fa-heart btn__icon"></i>
-                need your help
+                Our Talk Shows
               </span>
-              <h2 className="sectionTitle__big">Featured Campaigns</h2>
+              <h2 className="sectionTitle__big">Featured Podcasts</h2>
             </div>
           </div>
           <div className="col-lg-6">
@@ -114,7 +114,7 @@ const DonationListSection = (props) => {
                         <figure className="featureBlock__thumb">
                           <Link
                             onClick={ClickHandler}
-                            to={`/donation-details/${donation.slug}`}
+                            to={`/Podcasts-details/${donation.slug}`}
                             className="featureBlock__thumb__link"
                           >
                             <img
@@ -127,7 +127,7 @@ const DonationListSection = (props) => {
                           <h3 className="featureBlock__heading">
                             <Link
                               onClick={ClickHandler}
-                              to={`/donation-details/${donation.slug}`}
+                              to={`/Podcasts-details/${donation.slug}`}
                               className="featureBlock__heading__link"
                             >
                               {donation.title}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import about1 from "../../images/man/about-thumb-1.jpg";
+import about1 from "../../images/logos/volunteer.jpg";
 
 const About2 = (props) => {
   const ClickHandler = () => {
@@ -88,14 +88,12 @@ const About2 = (props) => {
             </div>
           </div>
           <div className="col-lg-5">
-            <div className="aboutThumb">
-              <div className="aboutThumb__text">
-                <span className="aboutThumb__text__title">..Since..</span>
-                <span className="aboutThumb__text__year">1998</span>
+            <div className="volunteerUser">
+              <div className="volunteerUser__box">
+                <div className="volunteerUser__thumb">
+                  <img src={about1} alt="Gainioz volunteer" />
+                </div>
               </div>
-              <figure className="aboutThumb__figure m-0">
-                <img src={about1} alt="Gainioz About" />
-              </figure>
             </div>
           </div>
         </div>

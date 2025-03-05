@@ -39,7 +39,7 @@ const FeaturesSection2 = (props) => {
                   <h3 className="keyFeatureBlock__heading">
                     <Link
                       onClick={ClickHandler}
-                      to={`/service-single/${service.slug}`}
+                      to={`#`}
                       className="keyFeatureBlock__heading__link"
                     >
                       {service.title}
@@ -48,7 +48,7 @@ const FeaturesSection2 = (props) => {
                   <p className="keyFeatureBlock__text">{service.description}</p>
                   <Link
                     onClick={ClickHandler}
-                    to={`/service-single/${service.slug}`}
+                    to={`#`}
                     className="keyFeatureBlock__link"
                   >
                     <span className="keyFeatureBlock__link__dot"></span>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import shape from "../../images/shapes/footerShape2.png";
-import logo from "../../images/logos/logo_2.svg";
+import logo from "../../images/logos/sw.png";
 
 const ClickHandler = () => {
   window.scrollTo(10, 0);
@@ -18,7 +18,7 @@ const Footer = (props) => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col">
-            <div className="footer__logo">
+            <div className="footer__logo" style={{ width: "200px" }}>
               <img
                 src={logo}
                 alt="Gainioz Logo"
@@ -30,36 +30,34 @@ const Footer = (props) => {
             <div className="footer__social itSocial">
               <ul>
                 <li>
-                  <Link
-                    onClick={ClickHandler}
+                  <a
                     className="facebook"
-                    to="/"
-                    rel="nofollow"
+                    href="https://www.facebook.com/share/1CtEctyvX1/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-facebook-f"></i>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    onClick={ClickHandler}
+                  <a
                     className="twitter"
-                    to="/"
+                    href="https://x.com/safespaceso?s=21"
                     rel="nofollow"
                   >
                     <i className="fab fa-twitter"></i>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    onClick={ClickHandler}
+                  <a
                     className="instagram"
-                    to="/"
+                    href="https://www.instagram.com/whwexhibition?igsh=ZGkyMGt4OGh6ZzFy&utm_source=qr"
                     rel="nofollow"
                   >
                     <i className="fab fa-instagram"></i>
-                  </Link>
+                  </a>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     onClick={ClickHandler}
                     className="linkedin"
@@ -68,7 +66,7 @@ const Footer = (props) => {
                   >
                     <i className="fab fa-linkedin-in"></i>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -99,7 +97,7 @@ const Footer = (props) => {
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={ClickHandler} to="/contact">
+                        <Link onClick={ClickHandler} to="/events">
                           Our Work
                         </Link>
                       </li>

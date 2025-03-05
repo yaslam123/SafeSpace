@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import logo from "../../images/logos/logo_1.svg";
+import logo from "../../images/logos/sb.png";
 import MobileMenu from "../MobileMenu/MobileMenu";
 
 const Header = (props) => {
@@ -49,7 +49,7 @@ const Header = (props) => {
           <div className="row">
             <div className="col-12">
               <div className="header__wrapper">
-                <div className="header__logo">
+                <div className="header__logo" style={{ width: "200px" }}>
                   <Link
                     onClick={ClickHandler}
                     to="/home"

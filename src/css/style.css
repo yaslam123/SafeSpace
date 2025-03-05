@@ -4390,7 +4390,7 @@ img.map-about-tab {
   position: absolute;
   right: 0;
   height: 100%;
-  background-color: #0b3142;
+  background-color: #c11010;
   text-transform: uppercase;
   border: 0;
   color: #fff;
@@ -4404,7 +4404,7 @@ img.map-about-tab {
 }
 
 .footer__newsletter__button:hover {
-  background-color: #7fb432;
+  background-color: #0b3142;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
