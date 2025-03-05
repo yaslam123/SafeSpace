@@ -199,45 +199,43 @@ const Header = (props) => {
         <div className="itSocial itSocial--sidebar mb-40">
           <ul>
             <li>
-              <Link
-                onClick={ClickHandler}
+              <a
                 className="facebook"
-                to="/"
-                rel="nofollow"
+                href="https://www.facebook.com/share/1CtEctyvX1/?mibextid=wwXIfr"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-facebook-f"></i>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                onClick={ClickHandler}
+              <a
                 className="twitter"
-                to="/"
+                href="https://x.com/safespaceso?s=21"
                 rel="nofollow"
               >
                 <i className="fab fa-twitter"></i>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                onClick={ClickHandler}
+              <a
                 className="instagram"
-                to="/"
+                href="https://www.instagram.com/whwexhibition?igsh=ZGkyMGt4OGh6ZzFy&utm_source=qr"
                 rel="nofollow"
               >
                 <i className="fab fa-instagram"></i>
-              </Link>
+              </a>
             </li>
-            <li>
-              <Link
-                onClick={ClickHandler}
-                className="linkedin"
-                to="/"
-                rel="nofollow"
-              >
-                <i className="fab fa-linkedin-in"></i>
-              </Link>
-            </li>
+            {/* <li>
+                  <Link
+                    onClick={ClickHandler}
+                    className="linkedin"
+                    to="/"
+                    rel="nofollow"
+                  >
+                    <i className="fab fa-linkedin-in"></i>
+                  </Link>
+                </li> */}
           </ul>
         </div>
         <div className="cc__button">
@@ -245,9 +243,9 @@ const Header = (props) => {
             <Link
               onClick={ClickHandler}
               className="btn btn--styleOne btn--secondary it-btn"
-              to="/donation-listing"
+              to="/contact"
             >
-              <span className="btn__text">Contact Us</span>
+              <span className="btn__text">Get In Touch Us</span>
               <i className="fa-solid fa-heart btn__icon"></i>
               <span className="it-btn__inner">
                 <span className="it-btn__blobs">

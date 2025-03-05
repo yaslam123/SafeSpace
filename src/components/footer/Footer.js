@@ -224,7 +224,7 @@ const Footer = (props) => {
               <div className="col mb-20">
                 <div className="footer__copyright pt-20">
                   <p className="footer__copyright__text mb-0">
-                    Copyright@example 2024 all right receved
+                    Copyright@SomaliSafeSpace 2025 all right receved
                   </p>
                 </div>
               </div>
