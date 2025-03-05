@@ -11,10 +11,7 @@ const PageTitle = (props) => {
       style={{ backgroundImage: `url(${Bg})` }}
     >
       <div className="pageBreadcumbTopDown">
-        <Link
-          className="btn btn--styleOne btn--icon btn--icon2 it-btn"
-          to="/donation-listing"
-        >
+        <Link className="btn btn--styleOne btn--icon btn--icon2 it-btn" to="#">
           <svg
             className="btn__icon"
             width="10"
