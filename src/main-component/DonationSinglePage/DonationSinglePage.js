@@ -11,10 +11,10 @@ import Footer from "../../components/footer/Footer";
 // import Bg from "../../images/bg/missionBg.jpg";
 import shape1 from "../../images/shapes/pagebreadcumbShapeTop.svg";
 import shape2 from "../../images/shapes/pagebreadcumbShapeBottom.svg";
-import icon from "../../images/icons/mission-icon1.svg";
-import icon2 from "../../images/icons/mission-icon2.svg";
-import icon3 from "../../images/icons/mission-icon3.svg";
-import icon4 from "../../images/icons/mission-icon4.svg";
+// import icon from "../../images/icons/mission-icon1.svg";
+// import icon2 from "../../images/icons/mission-icon2.svg";
+// import icon3 from "../../images/icons/mission-icon3.svg";
+// import icon4 from "../../images/icons/mission-icon4.svg";
 
 const DonationSinglePage = (props) => {
   const { slug } = useParams();
@@ -33,7 +33,7 @@ const DonationSinglePage = (props) => {
         <PageTitle
           pageTitle={DonationDetails.title}
           pagesub={"Details 😃"}
-          pageTop={"Portfolio"}
+          pageTop={"Podcasts"}
         />
 
         <section className="donation pt-130 pb-100">
@@ -88,6 +88,7 @@ const DonationSinglePage = (props) => {
                       </h3>
                     </div>
 
+                    {/* Podcast Destails and descriptions */}
                     <p className="donationDetails__text mb-30">
                       We have covered many special events such as fireworks,
                       fairs, parades, races, walks, awards ceremonies, fashion
@@ -103,8 +104,12 @@ const DonationSinglePage = (props) => {
                       elementum. Mauris et bibendum dui. Aenean consequat
                       pulvinar luctus. Suspendisse consectetur tristique tortor
                     </p>
+                    {/* The guest's Destails and descriptions */}
+                    <h3 className="donationDetails__heading mb-25">
+                      About this Guest
+                    </h3>
                     <h4 className="donationDetails__heading mb-25">
-                      Our challenge & Goal
+                      Guest name
                     </h4>
                     <p className="donationDetails__text mb-30">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
